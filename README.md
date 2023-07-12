@@ -9,10 +9,10 @@ The numerical efficiency is investigated considering the classical Newton-Raphso
 
 - sim_NewtonRaphson_Case1.m: Newton-Raphson method implementation to solve the muscle wrapping problem under case 1
 - sim_NewtonRaphson_Case2.m: Newton-Raphson method implementation to solve the muscle wrapping problem under case 2
-- 
+
 - sim_BFGS_Case1.m: BFGS method implementation to solve the muscle wrapping problem under case 1
 - sim_BFGS_Case2.m: BFGS method implementation to solve the muscle wrapping problem under case 2
-- 
+
 - sim_BR_Case1.m: Broyden's method implementation to solve the muscle wrapping problem under case 1
 - sim_BR_Case2.m: Broyden's method implementation to solve the muscle wrapping problem under case 2
 
