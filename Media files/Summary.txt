@@ -1,0 +1,29 @@
+Modeling of Muscle Wrapping Phenomenon: A Geometric Method based on Tangency Constraints
+
+An effective muscle wrapping method based on tangency constraints that guarantee continuity along a geodesic path over parametric surfaces.
+
+//////////////////////////////////////////////////////////////////////////////
+				About Media Files
+//////////////////////////////////////////////////////////////////////////////
+
+1) VideoC1.mp4 An animation of the Broyden's method solution of the muscle wrapping problem under case 1 (muscle is wrapped during whole simulation)
+2) VideoC2.mp4 An animation of the Broyden's method solution of the muscle wrapping problem under case 2 (muscle is not wrapped at some intervals of the simulation)
+3) VideoA1.mp4 An animation of the Broyden's method solution of the muscle wrapping problem considering translational and rotational surface's motion 
+4) VideoA2.mp4 Includes a compilation of first three videos (VideoC1-VideoC2-VideoA1)
+
+//////////////////////////////////////////////////////////////////////////////
+				About Source-Code
+//////////////////////////////////////////////////////////////////////////////
+Simulations
+A simple but representative muscle wrapping was simulated under two cases: (1) The muscle-tendon unit remains in contact with the cylindrical surface and (2) The muscle-tendon unit transitions from a wrapping state to a non-wrapping state.
+
+The numerical efficiency is investigated considering the classical Newton-Raphson and two Quasi-Newton (Broyden–Fletcher–Goldfarb–Shanno and Broyden) methods
+
+	1) sim_NewtonRaphson_Case1.m: Newton-Raphson method implementation to solve the muscle wrapping problem under case 1
+	2) sim_NewtonRaphson_Case2.m: Newton-Raphson method implementation to solve the muscle wrapping problem under case 2
+	3) sim_BFGS_Case1.m: BFGS method implementation to solve the muscle wrapping problem under case 1
+	4) sim_BFGS_Case2.m: BFGS method implementation to solve the muscle wrapping problem under case 2
+	5) sim_BR_Case1.m: Broyden's method implementation to solve the muscle wrapping problem under case 1
+	6) sim_BR_Case2.m: Broyden's method implementation to solve the muscle wrapping problem under case 2
+
+*Note: Media files include videos only for Broyden's method solutions, for case 1, case 2, and an additional video of a simulation considering the surface translational and rotational motion.
